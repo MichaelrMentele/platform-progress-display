@@ -1,0 +1,42 @@
+h1, h4 { 
+  margin: 30px auto;
+  width: 40%;
+  text-align: center;
+}
+
+body {
+  font-size: 18px;
+}
+
+.course, .module {
+  background: tomato;
+  color: white;
+  display: table;
+  position: relative;
+}
+.module {
+  margin: 10px 10px;
+  width: 30%;
+  height: 50px;
+  display: inline-block;
+}
+.course {
+  width: 40%;
+  margin: 10px auto;
+}
+.current { 
+  background: lightyellow;
+  color: grey;
+}
+
+span {
+  position: absolute;
+  left: -120px;
+  top: 17px;
+}
+.completed { background: lightgreen; }
+
+p {
+  text-align: center;
+  vertical-align: middle;
+}
